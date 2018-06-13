@@ -1,0 +1,8 @@
+{
+  "name": "ldapjs-pg",
+  "version": "0.0.1",
+  "main": "bin/ldapjs-pg",
+  "repository": "https://github.com/feynmanliang/ldapjs-pg",
+  "author": "Feynman Liang <feynman.liang@gmail.com>",
+  "license": "MIT"
+}
