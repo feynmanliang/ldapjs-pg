@@ -1,8 +1,16 @@
 {
   "name": "ldapjs-pg",
   "version": "0.0.1",
-  "main": "bin/ldapjs-pg",
+  "main": "lib/ldappg.js",
   "repository": "https://github.com/feynmanliang/ldapjs-pg",
   "author": "Feynman Liang <feynman.liang@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ldapjs": "^1.0.2",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
 }

@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var fs = require('fs');
+
+var config_file = process.env.npm_package_config_configfile;
+if(config_file === undefined) {
+    config_file = process.argv[2];
+}
+
+var ldappg = require(path.join(path.dirname(fs.realpathSync(__filename)),'../lib/ldappg'))
+// var server = new ldappg(config_file);
+var server = ldappg(config_file);
